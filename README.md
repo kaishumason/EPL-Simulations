@@ -6,3 +6,5 @@ My submission to the CMSAC reproducible research competition. The order in which
 + hazard_function.ipynb: Validates a weibull model for the time between goal scoring events for individual teams
 + copula.ipynb: Fits a gaussian copula to model the correaltion between goal scoring times for competing teams. Uses this joint distribution to simulate games.
 + substitution_analysis.ipynb: Using the simulations in copula.ipynb, analyses the effect of substituions on the win probability of a team.
+
+If one wants to run a notebook out of order, the corresponding pkl files are available. However, one must unzip the all_fifa_player_ratings.pkl.zip file in the data folder.
